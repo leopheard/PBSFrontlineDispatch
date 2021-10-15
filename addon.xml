@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.audio.pbsfrontlinedispatch" name="PBS Frontline Dispatch" version="1.1.0" provider-name="leopheard">
+  <requires>
+    <import addon="xbmc.python" version="2.26.0"/>
+    <import addon="script.module.xbmcswift2" version="2.4.0"/>
+    <import addon="script.module.beautifulsoup4" version="4.3.1"/>
+    <import addon="script.module.requests" version="1.1.0"/>
+    <import addon="script.module.routing" version="0.2.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <language>en_us</language>
+    <summary lang="en">PBS Frontline Dispatch</summary>
+    <description lang="en">An award-winning, original, investigative series made by the team behind the acclaimed PBS documentary show, FRONTLINE. From the long and deadly arm of 9/11, to a police shooting in West Virginia with a startling twist, to what life is really like for children living in a Kenyan refugee camp, each episode follows a different reporter through an investigation that sometimes is years in the making. The FRONTLINE Dispatch – because some stories are meant to be heard. Included also: audio versions of select full-length documentary episodes for listening on the go</description>
+    <license>The MIT License (MIT)</license>
+    <forum></forum>
+    <email>leopheard@gmail.com</email>
+    <source>https://github.com/leopheard/PBSFrontlineDispatch</source>
+    <website>https://pbs.org/frontlinedispatch</website>
+        	<assets>
+			<icon>resources/media/icon.jpg</icon>
+			<fanart>resources/media/fanart.jpg</fanart>
+			<screenshot>resources/media/1.jpg</screenshot>
+			<screenshot>resources/media/2.jpg</screenshot>
+			<screenshot>resources/media/icon.jpg</screenshot>
+		</assets>
+  </extension>
+</addon>
