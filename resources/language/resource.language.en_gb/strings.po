@@ -23,7 +23,7 @@ msgid "Latest episodes"
 msgstr ""
 
 msgctxt "#30002"
-msgid ""
+msgid "All episodes"
 msgstr ""
 
 msgctxt "#30003"
